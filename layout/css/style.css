@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 2px solid red;
+    height: auto;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+} 
+
+body{
+    background-image: url('/layout/pictures/resto-inside.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.7);
+    
+}
+
+.header .top p{
+    font-size: 2.6rem;
+    color: rgb(255, 166, 0);
+}
+.header .right button{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+}
+
+.header .right button:hover{
+    color: orangered;
+}
+
+.header .bottom{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: rgba(0,0,0,0.7);
+    align-items: center;
+}
+
+.info p , li{
+    color: rgb(255, 166, 0);
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.info p{
+    padding: 0 2rem 0 2rem;
+}
+
+.info .title{
+    font-size: 2rem;
+    color: rgb(255, 166, 0);
+}
+
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    color: rgb(255, 166, 0);
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
