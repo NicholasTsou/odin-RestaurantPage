@@ -25,12 +25,15 @@ export function createHeader() {
 
     const homeTab = document.createElement('button');
     homeTab.textContent = 'Home';
+    homeTab.id = 'home';
 
     const menuTab = document.createElement('button');
     menuTab.textContent = 'Menu';
+    menuTab.id = 'menu';
 
     const contactTab = document.createElement('button');
     contactTab.textContent = 'Contact';
+    contactTab.id = 'contact';
 
     header.appendChild(top);
     top.appendChild(title);
