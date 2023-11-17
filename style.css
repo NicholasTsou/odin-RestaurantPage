@@ -16,7 +16,7 @@ button{
 } 
 
 body{
-    background-image: url('../dist/pictures/resto-inside.jpg');
+    background-image: url('./pictures/resto-inside.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
