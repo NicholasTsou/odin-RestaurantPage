@@ -18,7 +18,7 @@ export function createHeader() {
     left.classList.add('left');
 
     const img = document.createElement('img');
-    img.src = "../dist/pictures/rice.png";
+    img.src = "./dist/pictures/rice.png";
 
     const right = document.createElement('div');
     right.classList.add('right');
