@@ -14,37 +14,37 @@ export function createMenu(){
 
     const gridItems = [
         {
-            imgSrc: "./dist/pictures/ramen.png",
+            imgSrc: "./pictures/ramen.png",
             title: "Pork Ramen",
             description: "Pork Broth, Thinly Sliced Pork Belly, Wheat Flour Noodles, Soft Boiled Egg, Green Onions, Nori, Corn"
         },
 
         {
-            imgSrc: "./dist/pictures/noodles.png",
+            imgSrc: "./pictures/noodles.png",
             title: "Stir Fried Noodles",
             description: "Thinly Sliced Beef, Homemade Sauce, Green Onions, Ginger, Garlic, Broccoli, Mushrooms"
         },
 
         {
-            imgSrc: "./dist/pictures/nigiri.png",
+            imgSrc: "./pictures/nigiri.png",
             title: "Salmon/Tuna Nigiri",
             description: "Salmon/Tuna, Rice, Wasabi, Pickled Ginger, Soy Sauce"
         },
 
         {
-            imgSrc: "./dist/pictures/sashimi.png",
+            imgSrc: "./pictures/sashimi.png",
             title: "Salmon/Tuna Sashimi",
             description: "Fresh Ahi Tuna/Salmon, Soy Sauce, Fresh Ginger, Wasabi"
         },
 
         {
-            imgSrc: "./dist/pictures/sushi.png",
+            imgSrc: "./pictures/sushi.png",
             title: "Sakura Sushi Rolls",
             description: "White Rice, Seaweed, Cucumbers, Ahi Tuna, Avocado, Spicy Mayo, Sesame Seeds"
         },
 
         {
-            imgSrc: "./dist/pictures/onigiri.png",
+            imgSrc: "./pictures/onigiri.png",
             title: "Spicy Salmon Onigiri",
             description: "White Rice, Kewpie Mayo, Sriracha, Nori, Cooked Salmon"
         }
