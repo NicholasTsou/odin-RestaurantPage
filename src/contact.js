@@ -46,7 +46,7 @@ export function createContactPage(){
     address.textContent = 'Champ de Mars, 5 Av. Anatole France, 75007 Paris, France';
 
     const img = document.createElement('img');
-    img.src = "../src/pictures/map.png";
+    img.src = "../dist/pictures/map.png";
 
     time.appendChild(infoTitle);
     time.appendChild(ul);

@@ -14,37 +14,37 @@ export function createMenu(){
 
     const gridItems = [
         {
-            imgSrc: "../src/pictures/ramen.png",
+            imgSrc: "../dist/pictures/ramen.png",
             title: "Pork Ramen",
             description: "Pork Broth, Thinly Sliced Pork Belly, Wheat Flour Noodles, Soft Boiled Egg, Green Onions, Nori, Corn"
         },
 
         {
-            imgSrc: "../src/pictures/noodles.png",
+            imgSrc: "../dist/pictures/noodles.png",
             title: "Stir Fried Noodles",
             description: "Thinly Sliced Beef, Homemade Sauce, Green Onions, Ginger, Garlic, Broccoli, Mushrooms"
         },
 
         {
-            imgSrc: "../src/pictures/nigiri.png",
+            imgSrc: "../dist/pictures/nigiri.png",
             title: "Salmon/Tuna Nigiri",
             description: "Salmon/Tuna, Rice, Wasabi, Pickled Ginger, Soy Sauce"
         },
 
         {
-            imgSrc: "../src/pictures/sashimi.png",
+            imgSrc: "../dist/pictures/sashimi.png",
             title: "Salmon/Tuna Sashimi",
             description: "Fresh Ahi Tuna/Salmon, Soy Sauce, Fresh Ginger, Wasabi"
         },
 
         {
-            imgSrc: "../src/pictures/sushi.png",
+            imgSrc: "../dist/pictures/sushi.png",
             title: "Sakura Sushi Rolls",
             description: "White Rice, Seaweed, Cucumbers, Ahi Tuna, Avocado, Spicy Mayo, Sesame Seeds"
         },
 
         {
-            imgSrc: "../src/pictures/onigiri.png",
+            imgSrc: "../dist/pictures/onigiri.png",
             title: "Spicy Salmon Onigiri",
             description: "White Rice, Kewpie Mayo, Sriracha, Nori, Cooked Salmon"
         }
