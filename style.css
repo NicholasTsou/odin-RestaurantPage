@@ -60,6 +60,7 @@ body{
     margin-top: 5rem;
     background-color: rgba(0,0,0,0.7);
     align-items: center;
+    padding: 2rem;
 }
 
 .info p , .info li{
@@ -67,7 +68,7 @@ body{
     font-size: 1.4rem;
     line-height: 1.5;
     text-align: center;
-    margin-top: 2rem;
+    margin-bottom: 20px;
 }
 
 .info p{
@@ -87,7 +88,7 @@ body{
     margin: auto;
     margin-top: 6rem;
     min-width: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .contact .time .infoTitle{
@@ -98,6 +99,11 @@ body{
 
 .contact .time .timeInfo{
     font-size: 1.4rem;
+    
+}
+
+.contact .time p{
+    font-size: 1.2rem;
     
 }
 
@@ -126,6 +132,7 @@ body{
     margin-top: 4rem;
     text-align: center;
     padding: 20px;
+    margin-bottom: 50px;
 }
 
 .menu .title{
