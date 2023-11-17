@@ -8,7 +8,6 @@
     "build": "webpack",
     "restoPro": "git subtree push --prefix dist origin gh-pages"
   },
-
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.89.0",
