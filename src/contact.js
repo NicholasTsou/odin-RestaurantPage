@@ -14,9 +14,11 @@ export function createContactPage(){
 
     const ul = document.createElement('ul');
 
+    //creating an array for days of week
     const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
     const openingHours = '10:00 - 22:00';
 
+    //for loop creating each element and giving it the day of the week with the opening hours.
     for (let i = 0; i < daysOfWeek.length; i++){
         const li = document.createElement('li');
         const p = document.createElement('p');

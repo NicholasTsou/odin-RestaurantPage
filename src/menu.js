@@ -1,3 +1,4 @@
+
 export function createMenu(){
 
     const fragment = document.createDocumentFragment();
@@ -12,6 +13,8 @@ export function createMenu(){
     const grid = document.createElement('div');
     grid.classList.add('grid');
 
+
+    //creating an array of items for gridItems
     const gridItems = [
         {
             imgSrc: "./pictures/ramen.png",
@@ -50,9 +53,9 @@ export function createMenu(){
         }
     ];
 
+    //function to create and append grid section
     function createGridItems(item){
         
-
         const divItem = document.createElement('div');
         divItem.classList.add('item');
         
@@ -78,6 +81,7 @@ export function createMenu(){
         
     }
 
+    //loop through array and create grid items
     for(const item of gridItems){
         createGridItems(item);
     }
